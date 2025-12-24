@@ -1,0 +1,45 @@
+.mint-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.mint-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.field-label {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.secret-input {
+  padding: 0.9rem 1rem;
+  border-radius: 16px;
+  border: 1px solid rgba(26, 31, 41, 0.2);
+  background: #fff;
+  resize: vertical;
+  min-height: 120px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.secret-input:focus {
+  outline: 2px solid rgba(240, 93, 35, 0.2);
+  border-color: rgba(240, 93, 35, 0.55);
+}
+
+.hint-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.status-row {
+  font-size: 0.9rem;
+  color: var(--muted);
+  min-height: 1.2rem;
+}

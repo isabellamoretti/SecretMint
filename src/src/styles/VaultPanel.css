@@ -1,0 +1,74 @@
+.vault-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.token-list {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.token-card {
+  padding: 1.4rem;
+  border-radius: 22px;
+  border: 1px solid rgba(26, 31, 41, 0.12);
+  background: rgba(255, 255, 255, 0.7);
+  display: grid;
+  gap: 1rem;
+}
+
+.token-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.token-label {
+  margin: 0;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--muted);
+}
+
+.token-card h4 {
+  margin: 0.3rem 0 0;
+  font-size: 1.4rem;
+}
+
+.token-status {
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  background: rgba(26, 31, 41, 0.08);
+}
+
+.token-body {
+  display: grid;
+  gap: 0.4rem;
+}
+
+.token-value {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--ink);
+  word-break: break-word;
+}
+
+.token-value.highlight {
+  font-weight: 600;
+  color: #7a2e16;
+}
+
+.token-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.token-message {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
